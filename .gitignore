@@ -7,6 +7,7 @@
 *.pyc
 
 config/prod.cfg
+config/tasks.sh
 config/client_secrets.json
 config/auth_token.json
 

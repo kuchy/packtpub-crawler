@@ -1,0 +1,7 @@
+version: '2'
+services:
+  packtpub-crawler:
+    image: kuchy/packtpub-crawler
+    volumes:
+      - ./config:/config
+      - ./cron.conf:/etc/cron.d/packtpub-crawler
